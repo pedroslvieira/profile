@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-color: rgb(230, 230, 230);
+}
+
+.profile-picture{
+  border-radius: 50%;
+  padding: 5px;
+  border: 1px solid darkgray;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container{
+  padding: 50px;
+  margin: 50px auto;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.bkg-white{
+  background-color: white;
+}
+
+h1{
+  font-weight: bolder;
+  font-size: 24px;
+  letter-spacing: 8px;
+}
+
+h2{
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+p{
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.margin-btm{
+  margin-bottom: 32px;
+}
+
+.btn{
+  color: #025600;
+  text-decoration: none;
+  background-color: #92DE34;
+  padding: 5px 30px;
+  border-radius: 30px;
+  margin: 100px;
+}
+
+.btn:hover{
+  color: white;
+  background-color: #025600;
+}
+
+ul{
+  padding: 0;
+}
+
+.fab{
+  color: lightgray;
+}
+
+.list-inline > li{
+  display: inline-block;
+  padding: 0px 20px;
+  list-style-type: none;
+  font-size: 32px;
+  margin-top: 24px;
+}
